@@ -4,12 +4,7 @@ import { GifGrid } from './components/GifGrid';
 
 const GifExpertApp = () => {
 
-    const [categories, setCategories] = useState(['Black List']);   
-
-    // const handleAdd = () => {
-    //     //setCategories([...categories, 'Malcom the Middle']);
-    //     setCategories((cat) => ['Malcom The Middle', ...cat]);
-    // }
+    const [categories, setCategories] = useState(['One Punch']);   
 
     return (
         <>
