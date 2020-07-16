@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing the <GifGrid/> component should show the <GifGrid/> Shapshot 1`] = `
+<Fragment>
+  <h3>
+    Hunter X Hunter
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+    Loading...
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`Testing the <GifGrid/> component should show the List of Item  when the useFetchGifs is done 1`] = `
+<Fragment>
+  <h3>
+    Hunter X Hunter
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="ABC"
+      key="ABC"
+      title="Dragon Ball"
+      url="localhost:8080/goku.gif"
+    />
+    <GifGridItem
+      id="ABCD"
+      key="ABCD"
+      title="Dragon Ball Super"
+      url="localhost:8080/goku.gif"
+    />
+  </div>
+</Fragment>
+`;
